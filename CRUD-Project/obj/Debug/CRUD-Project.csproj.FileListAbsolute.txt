@@ -1,0 +1,15 @@
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\bin\Debug\CRUD-Project.exe.config
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\bin\Debug\CRUD-Project.exe
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\bin\Debug\CRUD-Project.pdb
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\bin\Debug\BLL.dll
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\bin\Debug\DAL.dll
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\bin\Debug\BLL.pdb
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\bin\Debug\DAL.pdb
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\obj\Debug\CRUD-Project.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\obj\Debug\CRUD_Project.Form1.resources
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\obj\Debug\CRUD_Project.Properties.Resources.resources
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\obj\Debug\CRUD-Project.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\obj\Debug\CRUD-Project.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\obj\Debug\CRUD-Pro.4E800DC7.Up2Date
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\obj\Debug\CRUD-Project.exe
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\CRUD-Project\obj\Debug\CRUD-Project.pdb

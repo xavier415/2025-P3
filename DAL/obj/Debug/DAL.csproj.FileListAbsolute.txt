@@ -1,0 +1,6 @@
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\DAL\bin\Debug\DAL.dll
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\DAL\bin\Debug\DAL.pdb
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\DAL\obj\Debug\DAL.dll
+C:\Users\PC\Desktop\P3\ProyectoP3\CRUD-Project\DAL\obj\Debug\DAL.pdb

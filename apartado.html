@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Compra</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .compra-container {
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .compra-container h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .producto {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f1f5f9;
+      border-radius: 8px;
+    }
+
+    .producto-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .producto-nombre {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .producto-precio {
+      color: #888;
+      font-size: 14px;
+    }
+
+    .cantidad {
+      width: 60px;
+      padding: 6px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    .total {
+      text-align: right;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .btn-comprar {
+      margin-top: 25px;
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      background-color: #28a745;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn-comprar:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="compra-container">
+    <h2>Resumen de Compra</h2>
+
+    <div class="producto">
+      <div class="producto-info">
+        <span class="producto-nombre">Camiseta Personalizada</span>
+        <span class="producto-precio">Precio unitario: $20.00</span>
+      </div>
+      <div>
+        <label for="cantidad">Cantidad</label><br>
+        <input type="number" id="cantidad" class="cantidad" value="1" min="1" onchange="actualizarTotal()">
+      </div>
+    </div>
+
+    <div class="total" id="total">
+      Total: $20.00
+    </div>
+
+    <button class="btn-comprar" onclick="confirmarCompra()">Confirmar Compra</button>
+  </div>
+
+  <script>
+    function actualizarTotal() {
+      const cantidad = document.getElementById('cantidad').value;
+      const precioUnitario = 20.00;
+      const total = cantidad * precioUnitario;
+      document.getElementById('total').innerText = 'Total: $' + total.toFixed(2);
+    }
+
+    function confirmarCompra() {
+      const cantidad = document.getElementById('cantidad').value;
+      alert(`¡Gracias por tu compra!\nCantidad: ${cantidad}\nTotal: $${(cantidad * 20).toFixed(2)}`);
+    }
+  </script>
+</body>
+</html>
